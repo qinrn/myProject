@@ -47,6 +47,8 @@ public class FileInputStreamTest01 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
+			
+			// 为了保证一定会释放，所以在finally语句块中执行
 			if (fis != null) {
 				try {
 					fis.close();
