@@ -14,7 +14,7 @@ public class FileInputStreamTest01 {
 	public static void main(String[] args) {
 		FileInputStream fis = null;
 		try {
-			//1.要读取某文件，先要创建一个输入输入流
+			//1.要读取某文件，先要创建一个输入流
 			
 			//文件路径
 			String filePath = "./src/train/java/io/FileInputStream/file01"; //相对路径,相对当前而言，在当前路径下找
@@ -25,7 +25,7 @@ public class FileInputStreamTest01 {
 			//2. 读文件
 			
 			// 此时file01文件内容为：abcdef
-			int i1 = fis.read();    // 以字节的方式读取
+			int i1 = fis.read();    // 以字节的方式读取,读取的是一个字节的数据，读取的是ASCII码
 			int i2 = fis.read();  
 			int i3 = fis.read();
 			int i4 = fis.read();
@@ -39,7 +39,7 @@ public class FileInputStreamTest01 {
 			System.out.println(i4);  // 100
 			System.out.println(i5);  // 101
 			System.out.println(i6);  // 102
-			System.out.println(i7);  // -1   读到文件的末尾会会返回值  -1；
+			System.out.println(i7);  // -1   读到文件的末尾会返回值  -1；
 			
 			
 		} catch (FileNotFoundException e) {
