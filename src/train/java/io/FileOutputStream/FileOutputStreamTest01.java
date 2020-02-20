@@ -1,10 +1,10 @@
-package train.java.io.FileOutStream;
+package train.java.io.FileOutputStream;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileOutStreamTest01 {
+public class FileOutputStreamTest01 {
 	public static void main(String[] args) {
 		FileOutputStream fos = null;
 		try {
