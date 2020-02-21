@@ -16,7 +16,9 @@ public class FileInputStreamTest04 {
 		byte[] bytes = new byte[1024]; 	// 意味着每次读取1024个字节，即1kb
 		
 		/*
-		 * while (true) { int i1 = fis.read(bytes);
+		 * while (true) { 
+		 * 
+		 * int i1 = fis.read(bytes);
 		 * 
 		 * if (i1 == -1) break ;
 		 * 

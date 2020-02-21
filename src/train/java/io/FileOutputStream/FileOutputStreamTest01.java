@@ -15,7 +15,7 @@ public class FileOutputStreamTest01 {
 //			fos = new FileOutputStream("src/train/java/io/FileOutStream/file02");
 			
 			// 以拼接的方式输出，新的内容在旧的内容后面
-			fos = new FileOutputStream("src/train/java/io/FileOutStream/file02", true);
+			fos = new FileOutputStream("src/train/java/io/FileOutputStream/file02", true);
 			
 			//2. 写
 			String msg = "==> hello,world!";
