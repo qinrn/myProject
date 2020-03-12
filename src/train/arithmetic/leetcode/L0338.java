@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //动态规划，位运算
-public class L338 {
+public class L0338 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
