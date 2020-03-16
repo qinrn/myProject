@@ -1,4 +1,4 @@
-package train.arithmetic.leetcode;
+package train.arithmetic.leetcode.one;
 
 import java.util.Scanner;
 
