@@ -5,7 +5,6 @@ import java.util.Arrays;
 /**
  * 选择排序
  * 1. 定义一个最小下标
- * 2. 找到代码中
  */
 public class XZPX {
 	public static void main(String[] args) {

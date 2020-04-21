@@ -2,7 +2,9 @@ package train.arithmetic.leetcode.one;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+/**
+ * 贪心算法
+ */
 public class L0455 {
 	static int gNum ;
 	static int sNum ;
