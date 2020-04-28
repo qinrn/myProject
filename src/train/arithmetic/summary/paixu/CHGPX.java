@@ -8,7 +8,7 @@ import java.util.Arrays;
  * 
  * 复杂度 O(n^2)
  */
-public class CHG {
+public class CHGPX {
 
 	public static void main(String[] args) {
 		int[] arr = {8, 1, 4, 6, 2, 3, 5, 4};
