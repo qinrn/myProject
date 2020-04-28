@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 插入排序
  *
  */
-public class CHRPAX {
+public class CHRPX {
 
 	public static void main(String[] args) {
 		long start = System.nanoTime();
