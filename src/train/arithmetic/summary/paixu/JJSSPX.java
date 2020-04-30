@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class JJSSPX {
 	
 	public static void main(String[] args) {
-		int[] arr = {3,44,38,5,47,15,36,26,27,2,46,4,19,50,48};
+		int[] arr = {-11,3,44,38,5,-88,47,15,36,26,27,-23,2,46,4,-1,19,50,48};
 		int[] result = JSJSPX(arr);
 		System.out.println(Arrays.toString(result));
 
@@ -28,7 +28,8 @@ public class JJSSPX {
 			//定义二维数组，一维20个元素，0~9 代表负数，10~19 代表正数
 			int[][] counter = new int[mod * 2][0];
 			for (int j = 0; j < arr.length; j++) {
-				int bucket = (arr[j]% mod) + 10;
+//				int bucket = (arr[j]% mod) + 10;		// 不能直接加10，如果数组全是正数没关系，若是有负数
+				int bucket = (arr[j]% mod) + mod;
 				counter[bucket] = arrayAppend(counter[bucket],arr[j]);
 			}
 			
