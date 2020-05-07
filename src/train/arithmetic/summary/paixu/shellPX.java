@@ -62,7 +62,7 @@ public class shellPX {
 		int inserted = arr[i];
 		int j ;
 		for (j = i-gap; j >= 0 && inserted < arr[j]; j -= gap){
-			arr[j] = arr[j-gap];
+			arr[j+gap] = arr[j];
 		}
 		arr[j+gap] = inserted;
 		
