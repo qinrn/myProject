@@ -16,12 +16,9 @@ public class CHRPX {
 		int[] result = chrSort2(arr);
 		
 		System.out.println(Arrays.toString(result));
-		long xiaohao = System.nanoTime()-start;
-		System.out.println(xiaohao);
-
 	}
 
-	// method -- 2
+	// method -- 1
 	public static int[] chrSort2(int[] arr) {
 		for (int i = 1; i < arr.length; i++) {
 			int temp = arr[i];
@@ -40,7 +37,7 @@ public class CHRPX {
 		return arr;
 	}
 
-	// method -- 0
+	// method -- 2
 	public static int[] chrSort(int[] arr) {
 		for(int i = 1 ;i<arr.length;i++) {
             int temp = arr[i];
@@ -53,7 +50,7 @@ public class CHRPX {
 		return arr;
 	}
 
-	// method -- 1
+	// method -- 3
 	public static int[] chrSort1(int[] arr) {
 		// 从下标为 1 的开始第一轮插入排序， 因为下标为0的 只有一个元素，默认有序
 		for (int i = 1; i < arr.length; i++) {

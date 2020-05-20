@@ -5,18 +5,13 @@ import java.util.Scanner;
 import org.junit.Before;
 import org.junit.Test;
 
-public class DemoTest {
+public class utilsTest {
 	int T = 0;
+	
 	@Before
 	public void test() {
 		Scanner sc  = new Scanner(System.in);
 		T = sc.nextInt();
-	}
-	
-	//字符串前补零
-	@Test
-	public void _str() {
-		
 	}
 	
 	// 将数值转换成二进制字符串
