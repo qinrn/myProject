@@ -1,4 +1,4 @@
-package train.arithmetic.leetcode.one;
+package train.arithmetic.leetcode.Lone;
 
 public class L0112 {
 	

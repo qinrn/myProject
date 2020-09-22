@@ -1,4 +1,4 @@
-package train.arithmetic.leetcode.tanxin;
+package train.arithmetic.leetcode.summary.tanxin;
 
 import java.util.ArrayList;
 import java.util.Arrays;
