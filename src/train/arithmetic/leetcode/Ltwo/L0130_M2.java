@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class L0130_1 {
+public class L0130_M2 {
 	static char[][] board;
 	static int R;
 	static int C;
