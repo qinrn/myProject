@@ -1,4 +1,4 @@
-package train.arithmetic.leetcode.summary.tanxin;
+package train.arithmetic.leetcode.subject.tanxin;
 
 import java.util.Scanner;
 

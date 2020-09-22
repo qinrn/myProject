@@ -1,4 +1,4 @@
-package train.arithmetic.leetcode.summary.huisu;
+package train.arithmetic.leetcode.subject.huisu;
 
 import java.util.ArrayList;
 import java.util.List;
