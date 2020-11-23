@@ -1,7 +1,5 @@
 package train.arithmetic.leetcode.exercise;
 
-import java.util.Stack;
-
 // 凑零钱
 public class L322_lingQianDuiHuan {
 	static int ans ;
